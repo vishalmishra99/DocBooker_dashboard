@@ -12,7 +12,7 @@ const Doctors = () => {
     const fetchDoctors = async () => {
       try {
         const { data } = await axios.get(
-          "https://docbooker-backend-fpxs.onrender.com/api/v1/user/doctors",
+          "https://docbooker-backend-2.onrender.com/api/v1/user/doctors",
           { withCredentials: true }
         );
         setDocotrs(data.doctors);
