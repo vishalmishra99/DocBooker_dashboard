@@ -20,7 +20,7 @@ const App = () => {
     const fetchUser = async () => {
       try {
         const response = await axios.get(
-          "https://docbooker-backend-fpxs.onrender.com/api/v1/user/admin/me", 
+          "https://docbooker-backend-2.onrender.com/api/v1/user/admin/me", 
           { withCredentials: true }
         );
         setIsAuthenticated(true);
