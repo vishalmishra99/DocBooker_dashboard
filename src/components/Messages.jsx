@@ -11,7 +11,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          "https://docbooker-backend-fpxs.onrender.com/api/v1/message/getall",
+          "https://docbooker-backend-2.onrender.com/api/v1/message/getall",
           { withCredentials: true }
         );
         setMessages(data.messages);
