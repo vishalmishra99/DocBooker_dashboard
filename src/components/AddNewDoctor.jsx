@@ -61,7 +61,7 @@ const AddNewDoctor = () => {
       formData.append("dob", dob);
 
       const response = await axios.post(
-        "https://docbooker-backend-fpxs.onrender.com/api/v1/user/doctor/addnew",
+        "https://docbooker-backend-2.onrender.com/api/v1/user/doctor/addnew",
         formData,
         {
           withCredentials: true,
