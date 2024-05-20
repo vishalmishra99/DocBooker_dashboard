@@ -24,7 +24,7 @@ const AddNewAdmin = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://docbooker-backend-fpxs.onrender.com/api/v1/user/admin/addnew",
+        "https://docbooker-backend-2.onrender.com/api/v1/user/admin/addnew",
         {
           firstName,
           lastName,
